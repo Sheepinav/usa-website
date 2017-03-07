@@ -1,6 +1,8 @@
 # usa-website
 Website for the Statistics Undergraduate Student Association at Berkeley.
 
+Hi Anton!
+
 First, clone this repository (git clone https://github.com/usaberkeley/usa-website). 
 
 If you are changing some code: 
