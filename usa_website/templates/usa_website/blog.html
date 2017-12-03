@@ -34,7 +34,7 @@
 
         {% if posts %}
         {% for post in posts %}
-        <a href="{{ post.get_absolute_url }}">
+        <a href="{{ post.get_absolute_url }}" STYLE="text-decoration: none">
             <div class="row">
                 <div class="pricing">
                     <div class="col-md-10 col-md-offset-1 animate-box">
@@ -42,7 +42,7 @@
                             <h3>{{ post.title }}</h3>
                             <p style="color: #000">{{ post.posted }}</p>
                             <p style="color: #000">{% autoescape off %}{{ post.get_first_paragraph }}{% endautoescape %}</p>
-                            <a href="{{ post.getAuthorPosts }}">{{ post.author }}</a>
+                            <!--<a href="{{ post.getAuthorPosts }}">{{ post.author }}</a>-->
                         </div>
                     </div>
                 </div>
